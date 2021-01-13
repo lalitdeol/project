@@ -1,6 +1,7 @@
 <div class="container">
+   <div class="row mt-5">
   <div class="card  text-dark m-3 mt-5">
-    <h5 class="card-header text-center">
+    <h5 class="card-header text-center text-info text-uppercase ">
        Signup Form
     </h5>
     <div class="card-body">
@@ -81,8 +82,8 @@
         <div class="text-center">
           <button [disabled]="loading" class="btn btn-light btn-lg px-4 mr-3">Register</button>
           <a [routerLink]="['/signin']" class="btn btn-link">LogIn</a>
-          <p class="text white">Value: {{ registerForm.value | json }}</p>
-          <p class="text white">Value: {{ registerForm.valid | json }}</p>
+          <!-- <p class="text white">Value: {{ registerForm.value | json }}</p>
+          <p class="text white">Value: {{ registerForm.valid | json }}</p> -->
         </div>
       </form>
     </div>
