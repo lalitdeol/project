@@ -3,7 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { AuthGuard } from './guard/auth.guard';
 import { PostsComponent } from './pages/posts/posts.component';
 import { SignupComponent } from './pages/signup/signup.component';
-import { SigninComponent } from './signin/signin.component';
+import { SigninComponent } from './pages/signin/signin.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'signup', pathMatch: 'full' },

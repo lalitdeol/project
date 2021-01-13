@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { SignupComponent } from './pages/signup/signup.component';
 
-import { SigninComponent } from './signin/signin.component';
+import { SigninComponent } from './pages/signin/signin.component';
 import {HttpClientModule, HTTP_INTERCEPTORS} from '@angular/common/http';
 
 import { PostsComponent } from './pages/posts/posts.component';
