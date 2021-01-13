@@ -1,0 +1,18 @@
+<div>
+<span class="one">Hi {{currentUser.firstName}}!</span>
+<span class="home"><a [routerLink]="['/signin']">Logout</a></span>
+</div>
+<table border="2">
+  <tr>
+    <td>Id</td>
+    <td>Title</td>
+    <td>body</td>
+    <td>userId</td>
+  </tr>
+  <tr *ngFor="let item of posts">
+    <td>{{item.id}}</td>
+    <td>{{item.title}}</td>
+    <td>{{item.body}}</td>
+    <td>{{item.userId}}</td>
+  </tr>
+</table>
